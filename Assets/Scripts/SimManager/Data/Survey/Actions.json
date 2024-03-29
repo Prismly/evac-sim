@@ -2,16 +2,62 @@
     {
         "Name": "wait_action",
         "MinTime": 0,
-        "Hidden": false,
+        "Hidden": true,
         "Requirements": {},
         "Effects": {}
     },
     {
         "Name": "travel_action",
         "MinTime": 0,
-        "Hidden": false,
+        "Hidden": true,
         "Requirements": {},
         "Effects": {}
+    },
+	{
+        "Name": "Be Punched In Face",
+        "MinTime": 5,
+		"Hidden": true,
+        "Requirements": {
+        },
+        "Effects": {
+            "MotiveEffects": [
+                {
+                    "MotiveType": "Emotional",
+                    "Delta": -3
+                },
+				{
+                    "MotiveType": "Social",
+                    "Delta": -3
+                }
+            ]
+        }
+    },
+	{
+        "Name": "Punch In Face",
+        "MinTime": 5,
+		"Hidden": false,
+        "Requirements": {
+            "People Requirements": [
+                {
+                    "RelationshipsPresent": [
+                        "Enemy"
+                    ],
+                    "MinNumPeople": 2,
+                    "MaxNumPeople": 60,
+                    "SpecificPeoplePresent": [],
+                    "SpecificPeopleAbsent": [],
+                    "RelationshipsAbsent": []
+                }
+            ]
+        },
+        "Effects": {
+            "MotiveEffects": [
+                {
+                    "MotiveType": "Emotional",
+                    "Delta": 3
+                }
+            ]
+        }
     },
     {
         "Name": "Escape the heat",
@@ -31,7 +77,7 @@
                 {
                     "MotiveType": "Physical",
                     "Operation": "<",
-                    "Threshhold": 2
+                    "Threshhold": 3
                 }
             ]
         },
@@ -39,7 +85,7 @@
             "MotiveEffects": [
                 {
                     "MotiveType": "Physical",
-                    "Delta": 1
+                    "Delta": 2
                 }
             ]
         }
@@ -62,7 +108,7 @@
                 {
                     "MotiveType": "Emotional",
                     "Operation": "<",
-                    "Threshhold": 2
+                    "Threshhold": 3
                 }
             ]
         },
@@ -70,39 +116,11 @@
             "MotiveEffects": [
                 {
                     "MotiveType": "Emotional",
-                    "Delta": 3
+                    "Delta": 2
                 }
             ]
         }
 	},
-    {
-        "Name": "WatchMovie",
-        "MinTime": 70,
-        "Hidden": false,
-        "Requirements": {
-            "Location Requirements": [
-                {
-                    "HasAllOf": [
-                        "Theater"
-                    ],
-                    "HasOneOrMoreOf": [],
-                    "HasNoneOf": []
-                }
-            ]
-        },
-        "Effects": {
-            "MotiveEffects": [
-                {
-                    "MotiveType": "Emotional",
-                    "Delta": 3
-                },
-                {
-                    "MotiveType": "Social",
-                    "Delta": -1
-                }
-            ]
-        }
-    },
     {
         "Name": "Eat",
         "MinTime": 40,
@@ -176,7 +194,7 @@
                 },
                 {
                     "MotiveType": "Financial",
-                    "Delta": -2
+                    "Delta": -1
                 }
             ]
         }
