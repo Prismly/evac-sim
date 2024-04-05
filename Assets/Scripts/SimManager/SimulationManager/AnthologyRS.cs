@@ -24,21 +24,20 @@ namespace SimManager.SimulationManager
         /// <param name="npcs">The dictionary to populate.</param>
         public override void LoadNpcs(Dictionary<string, NPC> npcs)
         {
-            List<Agent> agents = AgentManager.Agents;
-            foreach (Agent a in agents)
+            foreach (Agent a in AgentManager.Agents.Values)
             {
                 if (!npcs.TryGetValue(a.Name, out NPC npc))
                     npc = new NPC();
                 npc.Name = a.Name;
                 npc.Location = a.CurrentLocation.Name;
-                if (a.CurrentAction != null && a.CurrentAction.Count > 0)
+                if (a.CurrentAction != null && a.CurrentAction.Any())
                 {
                     npc.CurrentAction.Name = a.CurrentAction.First().Name;
                 }
                 npc.ActionCounter = a.OccupiedCounter;
-                if (a.Destination.Count > 0)
+                if (a.Destination.Any())
                 {
-                    npc.Destination = a.Destination[0].Name;
+                    npc.Destination = a.Destination.Last();
                 }
                 Dictionary<string, float> motives = a.Motives.ToDictionary();
                 foreach (string mote in motives.Keys)
@@ -101,9 +100,9 @@ namespace SimManager.SimulationManager
             Agent agent = AgentManager.GetAgentByName(npc.Name);
             npc.Location = agent.CurrentLocation.Name;
 
-            if (agent.Destination.Count > 0)
+            if (agent.Destination.Any())
             {
-                npc.Destination = agent.Destination[0].Name;
+                npc.Destination = agent.Destination.Last();
             }
             else
             {
@@ -121,7 +120,7 @@ namespace SimManager.SimulationManager
                     npc.Motives[mote] = motives[mote];
                 }
             }
-            if (agent.CurrentAction.Count > 0 && npc.CurrentAction.Name != agent.CurrentAction.First().Name)
+            if (agent.CurrentAction.Any() && npc.CurrentAction.Name != agent.CurrentAction.First().Name)
             {
                 shouldLog = true;
                 npc.CurrentAction.Name = agent.CurrentAction.First().Name;

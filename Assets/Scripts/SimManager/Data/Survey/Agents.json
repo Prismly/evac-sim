@@ -10,12 +10,12 @@
         },
         "Relationships": [
             {
-                "Type": "friend",
+                "Type": "Friend",
                 "With": "Thomas",
                 "Valence": 2
             },
             {
-                "Type": "colleague",
+                "Type": "Colleague",
                 "With": "Oliver",
                 "Valence": 1
             }
@@ -32,12 +32,12 @@
         },
         "Relationships": [
             {
-                "Type": "friend",
+                "Type": "Friend",
                 "With": "Eleanor",
                 "Valence": 2
             },
             {
-                "Type": "rival",
+                "Type": "Rival",
                 "With": "Oliver",
                 "Valence": -1
             }
@@ -47,12 +47,12 @@
         "Name": "Oliver",
         "Relationships": [
             {
-                "Type": "friend",
+                "Type": "Friend",
                 "With": "Eleanor",
                 "Valence": 2
             },
             {
-                "Type": "romantic-interest",
+                "Type": "Romantic-Interest",
                 "With": "Thomas",
                 "Valence": 1
             }
@@ -62,7 +62,7 @@
 		"Name": "Alice",
 		"Relationships": [
 			{
-                "Type": "secret-crush",
+                "Type": "Secret-Crush",
                 "With": "Thomas",
                 "Valence": 5
             }

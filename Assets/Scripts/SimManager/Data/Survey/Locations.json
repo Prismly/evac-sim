@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Restaurant",
+        "Name": "Neomonde",
         "X": 0,
         "Y": 20,
         "Tags": [
@@ -9,11 +9,10 @@
         ]
     },
     {
-        "Name": "Gym",
+        "Name": "Orange Gym",
         "X": 0,
         "Y": 19,
         "Tags": [
-            "Building",
             "Gym"
         ]
     },
@@ -36,11 +35,11 @@
         ]
     },
     {
-        "Name": "A5",
+        "Name": "Farmers Market",
         "X": 0,
         "Y": 17,
         "Tags": [
-            "Building"
+            "Market"
         ]
     },
     {
@@ -48,7 +47,7 @@
         "X": 0,
         "Y": 16,
         "Tags": [
-            "Forest"
+            "Forest", "Bench"
         ]
     },
     {
@@ -57,7 +56,8 @@
         "Y": 20,
         "Tags": [
             "Building",
-            "Store"
+            "Store",
+			"Market"
         ]
     },
     {
@@ -65,16 +65,17 @@
         "X": 1,
         "Y": 15,
         "Tags": [
-            "Forest"
+            "Forest",
+			"Bench"
         ]
     },
     {
-        "Name": "C3",
+        "Name": "Jabali",
         "X": 2,
         "Y": 19,
         "Tags": [
             "Building",
-            "Store"
+            "Office"
         ]
     },
     {
@@ -100,7 +101,8 @@
         "Y": 2,
         "Tags": [
             "Building",
-            "has:Computer"
+            "Has:Computer",
+			"Seats"
         ]
     },
     {
@@ -126,15 +128,17 @@
         "Tags": [
             "Building",
             "Store",
-            "has:Employees"
+            "Has:Employees",
+			"Market"
         ]
     },
     {
-        "Name": "D19",
+        "Name": "Broadway",
         "X": 3,
         "Y": 3,
         "Tags": [
-            "Building"
+            "Building",
+			"Theater"
         ]
     },
     {
@@ -143,24 +147,27 @@
         "Y": 0,
         "Tags": [
             "Building",
-            "has:Computer"
+            "Has:Computer",
+			"Seats"
         ]
     },
     {
-        "Name": "E3",
+        "Name": "Cinemax",
         "X": 4,
         "Y": 19,
         "Tags": [
-            "Building"
+            "Building",
+			"Cinema"
         ]
     },
     {
-        "Name": "Office",
+        "Name": "NC State University",
         "X": 4,
         "Y": 17,
         "Tags": [
             "Building",
-            "has:Employees"
+            "Has:Employees",
+			"Office"
         ]
     },
     {
@@ -173,11 +180,10 @@
         ]
     },
     {
-        "Name": "E7",
+        "Name": "Food Court",
         "X": 4,
         "Y": 15,
         "Tags": [
-            "Building",
             "Restaurant"
         ]
     },
@@ -195,7 +201,7 @@
         "Y": 13,
         "Tags": [
             "Building",
-            "has:Bed"
+            "Has:Bed"
         ]
     },
     {
@@ -204,8 +210,8 @@
         "Y": 12,
         "Tags": [
             "Building",
-            "has:Bed",
-            "has:Computer"
+            "Has:Bed",
+            "Has:Computer"
         ]
     },
     {
@@ -214,7 +220,7 @@
         "Y": 11,
         "Tags": [
             "Building",
-            "has:Bed"
+            "Has:Bed"
         ]
     },
     {
@@ -234,11 +240,12 @@
         ]
     },
     {
-        "Name": "E14",
+        "Name": "Toast Inc.",
         "X": 4,
         "Y": 8,
         "Tags": [
-            "Building"
+            "Building",
+			"Office"
         ]
     },
     {
@@ -258,21 +265,22 @@
         ]
     },
     {
-        "Name": "E17",
+        "Name": "Bookstore",
         "X": 4,
         "Y": 5,
         "Tags": [
-            "Building"
+            "Books", "School Supplies", "Merchandise", "Seats", "Building"
         ]
     },
     {
-        "Name": "E18",
+        "Name": "Library",
         "X": 4,
         "Y": 4,
         "Tags": [
             "Building",
-            "has:book",
-            "library"
+            "Books", "Study", "Resources",
+            "Library",
+			"Seats"
         ]
     },
     {
@@ -280,14 +288,11 @@
         "X": 4,
         "Y": 3,
         "Tags": [
-            "Building",
-            "Gym",
-            "has:Ball",
-            "has:Racket"
+            "Building"
         ]
     },
     {
-        "Name": "E21",
+        "Name": "Random Store",
         "X": 4,
         "Y": 1,
         "Tags": [
@@ -296,7 +301,7 @@
         ]
     },
     {
-        "Name": "F3",
+        "Name": "Crossroads Plaza",
         "X": 5,
         "Y": 19,
         "Tags": [
@@ -305,7 +310,7 @@
         ]
     },
     {
-        "Name": "F21",
+        "Name": "Chengdu7",
         "X": 5,
         "Y": 1,
         "Tags": [
@@ -338,16 +343,16 @@
         ]
     },
     {
-        "Name": "G7",
+        "Name": "Unix Lab",
         "X": 6,
         "Y": 15,
         "Tags": [
             "Building",
-            "has:Computer"
+            "Has:Computer"
         ]
     },
     {
-        "Name": "G8",
+        "Name": "Lego Store",
         "X": 6,
         "Y": 14,
         "Tags": [
@@ -360,7 +365,8 @@
         "X": 6,
         "Y": 13,
         "Tags": [
-            "Park"
+            "Park",
+			"Greenery", "Recreation", "Picnic"
         ]
     },
     {
@@ -404,7 +410,7 @@
         ]
     },
     {
-        "Name": "G15",
+        "Name": "Gym",
         "X": 6,
         "Y": 7,
         "Tags": [
@@ -421,11 +427,12 @@
         ]
     },
     {
-        "Name": "G18",
+        "Name": "Forest Amphitheater",
         "X": 6,
         "Y": 4,
         "Tags": [
-            "Forest"
+            "Forest",
+			"Stage"
         ]
     },
     {
@@ -461,7 +468,7 @@
         ]
     },
     {
-        "Name": "H15",
+        "Name": "Flower Store",
         "X": 7,
         "Y": 7,
         "Tags": [
@@ -475,7 +482,7 @@
         "Y": 5,
         "Tags": [
             "Building",
-            "has:Computer"
+            "Has:Computer"
         ]
     },
     {
@@ -487,12 +494,13 @@
         ]
     },
     {
-        "Name": "I2",
+        "Name": "Cafetaria",
         "X": 8,
         "Y": 20,
         "Tags": [
             "Building",
-            "Restaurant"
+            "Restaurant",
+			"Food", "Drinks", "Dining"
         ]
     },
     {
@@ -517,7 +525,7 @@
         "Y": 7,
         "Tags": [
             "Building",
-            "has:Computer"
+            "Has:Computer"
         ]
     },
     {
@@ -587,12 +595,13 @@
         ]
     },
     {
-        "Name": "K5",
+        "Name": "Coffee Shop",
         "X": 10,
         "Y": 17,
         "Tags": [
             "Building",
-            "Restaurant"
+			"Market",
+			"Coffee", "Snacks", "Relaxation"
         ]
     },
     {

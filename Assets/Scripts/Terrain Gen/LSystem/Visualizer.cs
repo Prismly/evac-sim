@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using static SimpleVisualizer;
 
@@ -58,7 +59,7 @@ public class Visualizer : MonoBehaviour
                     });
                     break;
                 case EncodingLetters.load:
-                    if(savePoints.Count > 0) {
+                    if(savePoints.Any()) {
                         var sysParameter = savePoints.Pop();
                         currentPosition = sysParameter.position;
                         direction = sysParameter.direction;

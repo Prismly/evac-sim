@@ -103,7 +103,7 @@
     },
     {
         "Name": "Work",
-        "MinTime": 240,
+        "MinTime": 120,
         "Requirements": {
             "LocationRequirements": [
                 {
@@ -120,11 +120,11 @@
             "MotiveEffects": [
                 {
                     "MotiveType": "Accomplishment",
-                    "Delta": 5
+                    "Delta": 1
                 },
                 {
                     "MotiveType": "Financial",
-                    "Delta": 4
+                    "Delta": 1
                 }
             ],
             "RelationshipEffects": []
@@ -132,14 +132,15 @@
     },
     {
         "Name": "Watch Movie",
-        "MinTime": 120,
+        "MinTime": 60,
         "Requirements": {
             "LocationRequirements": [
                 {
                     "HasAllOf": [
-                        "Cinema"
                     ],
-                    "HasOneOrMoreOf": [],
+                    "HasOneOrMoreOf": [
+						"Cinema", "Theater", "Stage"
+					],
                     "HasNoneOf": []
                 }
             ],
