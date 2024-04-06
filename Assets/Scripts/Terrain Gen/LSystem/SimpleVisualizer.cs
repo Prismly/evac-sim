@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 //Basic visualizer used in LSys generation, not being used anymore
@@ -61,7 +62,7 @@ public class SimpleVisualizer : MonoBehaviour
                     });
                     break;
                 case EncodingLetters.load:
-                    if(savePoints.Count > 0) {
+                    if(savePoints.Any()) {
                         var sysParameter = savePoints.Pop();
                         currentPosition = sysParameter.position;
                         direction = sysParameter.direction;

@@ -1,0 +1,1669 @@
+[
+
+    {
+        "Name": "1302",
+        "X": 12,
+        "Y": 12,
+        "Tags": [
+            "Restroom", "Park"
+        ]
+    },
+    {
+        "Name": "1303",
+        "X": 14,
+        "Y": 12,
+        "Tags": [
+            "Restroom", "Park"
+        ]
+    },
+    {
+        "Name": "1304",
+        "X": 16,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "1305",
+        "X": 15,
+        "Y": 12,
+        "Tags": [
+            "Services", "Building",
+            "JAN CLO."
+        ]
+    },
+    {
+        "Name": "1306",
+        "X": 15,
+        "Y": 11,
+        "Tags": [
+            "Services", "Building",
+            "TEL/DATA"
+        ]
+    },
+    {
+        "Name": "1307",
+        "X": 16,
+        "Y": 11,
+        "Tags": [
+            "Services", "Building",
+            "ELEC. ROOM"
+        ]
+    },
+    {
+        "Name": "1308",
+        "X": 17,
+        "Y": 11,
+        "Tags": [
+            "Services", "Building",
+            "EMER. ELEC."
+        ]
+    },
+    {
+        "Name": "1309",
+        "X": 7,
+        "Y": 8,
+        "Tags": [
+            "Services", "Building",
+            "SERVICE"
+        ]
+    },
+    {
+        "Name": "13-035",
+        "X": 3,
+        "Y": 14,
+        "Tags": [
+            "Office", "Building",
+            "Open Office A"
+        ]
+    },
+    {
+        "Name": "13-034",
+        "X": 1,
+        "Y": 8,
+        "Tags": [
+            "Office", "Building",
+            "Open Office B"
+        ]
+    },
+    {
+        "Name": "13-033",
+        "X": 1,
+        "Y": 3,
+        "Tags": [
+            "Office", "Building",
+            "Open Office C"
+        ]
+    },
+    {
+        "Name": "13-025",
+        "X": 11,
+        "Y": 4,
+        "Tags": [
+            "Office", "Building",
+            "Open Office D"
+        ]
+    },
+    {
+        "Name": "13-024",
+        "X": 20,
+        "Y": 4,
+        "Tags": [
+            "Office", "Building",
+            "Open Office E"
+        ]
+    },
+    {
+        "Name": "13-032",
+        "X": 6,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-045",
+        "X": 2,
+        "Y": 18,
+        "Tags": [
+            "Meeting", "Building",
+            "LIBRARY READING ROOM"
+        ]
+    },
+    {
+        "Name": "13-046",
+        "X": 6,
+        "Y": 18,
+        "Tags": [
+            "Meeting", "Building",
+            "LIBRARY VESTIBULE"
+        ]
+    },
+    {
+        "Name": "13-047",
+        "X": 9,
+        "Y": 17,
+        "Tags": [
+            "Meeting", "Building",
+            "LIBRARY QUIET CAR"
+        ]
+    },
+    {
+        "Name": "13-020",
+        "X": 20,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-021",
+        "X": 21,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-022",
+        "X": 22,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-023",
+        "X": 23,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-031",
+        "X": 7,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-042",
+        "X": 7,
+        "Y": 15,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-043",
+        "X": 7,
+        "Y": 16,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-044",
+        "X": 7,
+        "Y": 17,
+        "Tags": [
+            "Meeting", "Building",
+            "PHONE"
+        ]
+    },
+    {
+        "Name": "13-027",
+        "X": 13,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "TEAM ROOM"
+        ]
+    },
+    {
+        "Name": "13-038",
+        "X": 5,
+        "Y": 9,
+        "Tags": [
+            "Meeting", "Building",
+            "TEAM ROOM"
+        ]
+    },
+    {
+        "Name": "13-039",
+        "X": 5,
+        "Y": 10,
+        "Tags": [
+            "Meeting", "Building",
+            "TEAM ROOM"
+        ]
+    },
+    {
+        "Name": "13-007",
+        "X": 12,
+        "Y": 16,
+        "Tags": [
+            "Meeting", "Building",
+            "BOARD ROOM"
+        ]
+    },
+    {
+        "Name": "00-001",
+        "X": 6,
+        "Y": 4,
+        "Tags": [
+            "Meeting", "Building",
+            "NONAME CUBICAL"
+        ]
+    },
+    {
+        "Name": "00-002",
+        "X": 15,
+        "Y": 4,
+        "Tags": [
+            "Meeting", "Building",
+            "NONAME CUBICAL"
+        ]
+    },
+    {
+        "Name": "00-003",
+        "X": 3,
+        "Y": 13,
+        "Tags": [
+            "Meeting", "Building",
+            "NONAME CUBICAL"
+        ]
+    },
+    {
+        "Name": "13-012",
+        "X": 20,
+        "Y": 7,
+        "Tags": [
+            "Meeting", "Building",
+            "FORUM"
+        ]
+    },
+    {
+        "Name": "13-008",
+        "X": 18,
+        "Y": 16,
+        "Tags": [
+            "Meeting", "Building",
+            "SMALL MTG"
+        ]
+    },
+    {
+        "Name": "13-026",
+        "X": 15,
+        "Y": 6,
+        "Tags": [
+            "Meeting", "Building",
+            "SMALL MTG"
+        ]
+    },
+    {
+        "Name": "13-036",
+        "X": 5,
+        "Y": 7,
+        "Tags": [
+            "Meeting", "Building",
+            "SMALL MTG"
+        ]
+    },
+    {
+        "Name": "13-037",
+        "X": 5,
+        "Y": 8,
+        "Tags": [
+            "Meeting", "Building",
+            "SMALL MTG"
+        ]
+    },
+    {
+        "Name": "13-048",
+        "X": 11,
+        "Y": 16,
+        "Tags": [
+            "Meeting", "Building",
+            "SMALL MTG"
+        ]
+    },
+    {
+        "Name": "13-011",
+        "X": 21,
+        "Y": 13,
+        "Tags": [
+            "Meeting", "Building",
+            "GARAGE"
+        ]
+    },
+    {
+        "Name": "13-009",
+        "X": 18,
+        "Y": 17,
+        "Tags": [
+            "Meeting", "Building",
+            "MEDIUM MTG"
+        ]
+    },
+    {
+        "Name": "13-010",
+        "X": 21,
+        "Y": 17,
+        "Tags": [
+            "Breakroom", "Forest",
+            "WORK CAFE"
+        ]
+    },
+    {
+        "Name": "13-018",
+        "X": 16,
+        "Y": 6,
+        "Tags": [
+            "Services", "Building",
+            "MOTHER'S RM"
+        ]
+    },
+    {
+        "Name": "00-004",
+        "X": 1,
+        "Y": 0,
+        "Tags": [
+            "Meeting", "Building",
+            "CORNER SEATS"
+        ]
+    },
+    {
+        "Name": "00-005",
+        "X": 23,
+        "Y": 2,
+        "Tags": [
+            "Meeting", "Building",
+            "CORNER SEATS"
+        ]
+    },
+    {
+        "Name": "00-006",
+        "X": 6,
+        "Y": 1,
+        "Tags": [
+            "Meeting", "Building",
+            "WALL DESK"
+        ]
+    },
+    {
+        "Name": "00-007",
+        "X": 0,
+        "Y": 2,
+        "Tags": [
+            "Meeting", "Building",
+            "WALL DESK"
+        ]
+    },
+    {
+        "Name": "00-008",
+        "X": 1,
+        "Y": 13,
+        "Tags": [
+            "Meeting", "Building",
+            "WALL DESK"
+        ]
+    },
+    {
+        "Name": "13-015",
+        "X": 18,
+        "Y": 9,
+        "Tags": [
+            "Services", "Building",
+            "IT BUILD"
+        ]
+    },
+    {
+        "Name": "13-019",
+        "X": 18,
+        "Y": 6,
+        "Tags": [
+            "Other",
+            "COAT"
+        ]
+    },
+    {
+        "Name": "13-041",
+        "X": 5,
+        "Y": 13,
+        "Tags": [
+            "Other",
+            "COAT"
+        ]
+    },
+    {
+        "Name": "13-004",
+        "X": 12,
+        "Y": 13,
+        "Tags": [
+            "Other",
+            "COAT"
+        ]
+    },
+    {
+        "Name": "13-002",
+        "X": 10,
+        "Y": 15,
+        "Tags": [
+            "Hallway", "Road",
+            "WELCOME"
+        ]
+    },
+    {
+        "Name": "13-040",
+        "X": 5,
+        "Y": 11,
+        "Tags": [
+            "Copy",
+            "COPY PRINT"
+        ]
+    },
+    {
+        "Name": "13-013",
+        "X": 19,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "13-001",
+        "X": 10,
+        "Y": 10,
+        "Tags": [
+            "ELEVATOR LOBBY"
+        ]
+    },
+    {
+        "Name": "13-014",
+        "X": 18,
+        "Y": 11,
+        "Tags": [
+            "Other",
+            "FURNITURE STORAGE"
+        ]
+    },
+    {
+        "Name": "13-005",
+        "X": 15,
+        "Y": 13,
+        "Tags": [
+            "Other",
+            "LOCKERS"
+        ]
+    },
+    {
+        "Name": "13-017",
+        "X": 17,
+        "Y": 6,
+        "Tags": [
+            "Other",
+            "LOCKERS"
+        ]
+    },
+    {
+        "Name": "13-030",
+        "X": 8,
+        "Y": 6,
+        "Tags": [
+            "Services", "Building",
+            "MAIL"
+        ]
+    },
+    {
+        "Name": "13-029",
+        "X": 9,
+        "Y": 6,
+        "Tags": [
+            "Other",
+            "MARKETING STORAGE"
+        ]
+    },
+    {
+        "Name": "PE-01",
+        "X": 11,
+        "Y": 8,
+        "Tags": [
+            "Elevator"
+        ]
+    },
+    {
+        "Name": "PE-02",
+        "X": 11,
+        "Y": 9,
+        "Tags": [
+            "Elevator"
+        ]
+    },
+    {
+        "Name": "PE-03",
+        "X": 11,
+        "Y": 10,
+        "Tags": [
+            "Elevator"
+        ]
+    },
+    {
+        "Name": "PE-04",
+        "X": 11,
+        "Y": 11,
+        "Tags": [
+            "Elevator"
+        ]
+    },
+    {
+        "Name": "PE-05",
+        "X": 9,
+        "Y": 10,
+        "Tags": [
+            "Elevator"
+        ]
+    },
+    {
+        "Name": "PE-06",
+        "X": 9,
+        "Y": 9,
+        "Tags": [
+            "Elevator"
+        ]
+    },
+    {
+        "Name": "13-016",
+        "X": 18,
+        "Y": 7,
+        "Tags": [
+            "Restroom", "Park"
+        ]
+    },
+    {
+        "Name": "SE-07",
+        "X": 9,
+        "Y": 8,
+        "Tags": [
+            "Elevator",
+            "SERVICE ELEVATOR"
+        ]
+    },
+    {
+        "Name": "ST1-13",
+        "X": 17,
+        "Y": 7,
+        "Tags": [
+            "Stair", "Road"
+        ]
+    },
+    {
+        "Name": "ST2-13",
+        "X": 7,
+        "Y": 12,
+        "Tags": [
+            "Stair", "Road"
+        ]
+    },
+    {
+        "Name": "1301A",
+        "X": 9,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "13-006",
+        "X": 18,
+        "Y": 13,
+        "Tags": [
+            "Services", "Building",
+            "IT"
+        ]
+    },
+    {
+        "Name": "13-028",
+        "X": 11,
+        "Y": 6,
+        "Tags": [
+            "Copy",
+            "COPY PRINT"
+        ]
+    },
+    {
+        "Name": "c1",
+        "X": 0,
+        "Y": 1,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c2",
+        "X": 1,
+        "Y": 1,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c3",
+        "X": 2,
+        "Y": 1,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c4",
+        "X": 3,
+        "Y": 1,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c5",
+        "X": 4,
+        "Y": 1,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c6",
+        "X": 5,
+        "Y": 1,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c7",
+        "X": 1,
+        "Y": 2,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c8",
+        "X": 2,
+        "Y": 2,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c9",
+        "X": 2,
+        "Y": 3,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c10",
+        "X": 2,
+        "Y": 4,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c11",
+        "X": 2,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c12",
+        "X": 2,
+        "Y": 6,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c13",
+        "X": 2,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c14",
+        "X": 2,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c15",
+        "X": 2,
+        "Y": 9,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c16",
+        "X": 2,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c17",
+        "X": 2,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c18",
+        "X": 2,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c19",
+        "X": 2,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c20",
+        "X": 2,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c21",
+        "X": 2,
+        "Y": 15,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c22",
+        "X": 2,
+        "Y": 16,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c23",
+        "X": 2,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c24",
+        "X": 5,
+        "Y": 2,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c25",
+        "X": 5,
+        "Y": 3,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c26",
+        "X": 5,
+        "Y": 4,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c27",
+        "X": 5,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c28",
+        "X": 6,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c29",
+        "X": 7,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c30",
+        "X": 8,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c31",
+        "X": 9,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 10,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 11,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 12,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 13,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 14,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 15,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 16,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 17,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 18,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 20,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 21,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 22,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 23,
+        "Y": 5,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 23,
+        "Y": 4,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 23,
+        "Y": 3,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 6,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 19,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 3,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 4,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 5,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 16,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 6,
+        "Y": 15,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 6,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 6,
+        "Y": 9,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 6,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 3,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 4,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 5,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 7,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 9,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 10,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 11,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 12,
+        "Y": 7,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 8,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 9,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 8,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 8,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 15,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 8,
+        "Y": 16,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 8,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 10,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 10,
+        "Y": 9,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 9,
+        "Y": 16,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 10,
+        "Y": 16,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 10,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 11,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 12,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 9,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 10,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 11,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 11,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 11,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 12,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 13,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 14,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 15,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 16,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 16,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 17,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 17,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 18,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 20,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 21,
+        "Y": 12,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 12,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 12,
+        "Y": 9,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 12,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 12,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 13,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 14,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 14,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 15,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 16,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 17,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 18,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 10,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 17,
+        "Y": 9,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 17,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 18,
+        "Y": 8,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 11,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 13,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 14,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c32",
+        "X": 19,
+        "Y": 15,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 16,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 19,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    },
+    {
+        "Name": "c33",
+        "X": 20,
+        "Y": 17,
+        "Tags": [
+            "Hallway", "Road"
+        ]
+    }
+]
