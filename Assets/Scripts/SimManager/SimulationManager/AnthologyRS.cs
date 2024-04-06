@@ -24,8 +24,7 @@ namespace SimManager.SimulationManager
         /// <param name="npcs">The dictionary to populate.</param>
         public override void LoadNpcs(Dictionary<string, NPC> npcs)
         {
-            List<Agent> agents = AgentManager.Agents;
-            foreach (Agent a in agents)
+            foreach (Agent a in AgentManager.Agents.Values)
             {
                 if (!npcs.TryGetValue(a.Name, out NPC npc))
                     npc = new NPC();
@@ -36,18 +35,18 @@ namespace SimManager.SimulationManager
                     npc.CurrentAction.Name = a.CurrentAction.First().Name;
                 }
                 npc.ActionCounter = a.OccupiedCounter;
-                if (a.Destination.Count > 0)
+                if (a.Destination.Any())
                 {
-                    npc.Destination = a.Destination[0].Name;
+                    npc.Destination = a.Destination.Last();
                 }
-                Dictionary<string, float> motives = a.Motives;
+                Dictionary<string, float> motives = a.Motives.ToDictionary();
                 foreach (string mote in motives.Keys)
                 {
                     npc.Motives[mote] = motives[mote];
                 }
                 foreach (Relationship r in a.Relationships)
                 {
-                    npc.Relationships.Add(r.With, r.Type);
+                    npc.Relationships.Add((Relationship)r);
                 }
                 npcs[a.Name] = npc;
             }
@@ -103,15 +102,15 @@ namespace SimManager.SimulationManager
             npc.Location = SimEngine.Locations[agent.CurrentLocation.Name];
             npc.Location.AgentsPresent.Add(npc.Name);
 
-            if (agent.Destination.Count > 0)
+            if (agent.Destination.Any())
             {
-                npc.Destination = agent.Destination[0].Name;
+                npc.Destination = agent.Destination.Last();
             }
             else
             {
                 npc.Destination = string.Empty;
             }
-            Dictionary<string, float> motives = agent.Motives;
+            Dictionary<string, float> motives = agent.Motives.ToDictionary();
             foreach (string mote in motives.Keys)
             {
                 if (!npc.Motives.ContainsKey(mote))
@@ -123,7 +122,7 @@ namespace SimManager.SimulationManager
                     npc.Motives[mote] = motives[mote];
                 }
             }
-            if (agent.CurrentAction.Count > 0 && npc.CurrentAction.Name != agent.CurrentAction.First().Name)
+            if (agent.CurrentAction.Any() && npc.CurrentAction.Name != agent.CurrentAction.First().Name)
             {
                 shouldLog = true;
                 npc.CurrentAction.Name = agent.CurrentAction.First().Name;

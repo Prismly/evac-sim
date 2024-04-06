@@ -97,7 +97,7 @@ namespace SimManager.HistoryManager
                 logCollection = LastUsedLog;
             }
             LastUsedLog = logCollection;
-            if (ELog.NpcChanges.Count > 0)
+            if (ELog.NpcChanges.Any())
             {
                 logCollection.InsertOne(ELog);
                 ELog = new();
