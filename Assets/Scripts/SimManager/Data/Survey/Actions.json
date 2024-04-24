@@ -1,21 +1,7 @@
 [
-    {
-        "Name": "wait_action",
-        "MinTime": 0,
-        "Hidden": true,
-        "Requirements": {},
-        "Effects": {}
-    },
-    {
-        "Name": "travel_action",
-        "MinTime": 0,
-        "Hidden": true,
-        "Requirements": {},
-        "Effects": {}
-    },
 	{
         "Name": "Work",
-        "MinTime": 120,
+        "MinTime": 60,
         "Requirements": {
             "LocationRequirements": [
                 {
@@ -29,98 +15,17 @@
         },
         "Effects": {
             "MotiveEffects": [
-                {
-                    "MotiveType": "Accomplishment",
-                    "Delta": 1
+				{
+                    "MotiveType": "Emotional",
+                    "Delta": -2
                 },
                 {
                     "MotiveType": "Financial",
-                    "Delta": 1
-                }
-            ],
-            "RelationshipEffects": []
-        }
-    },
-    {
-        "Name": "Watch Movie",
-        "MinTime": 60,
-        "Requirements": {
-            "LocationRequirements": [
-                {
-                    "HasOneOrMoreOf": [
-						"Cinema", "Theater", "Stage"
-					],
-                    "HasNoneOf": []
-                }
-            ]
-        },
-        "Effects": {
-            "MotiveEffects": [
-                {
-                    "MotiveType": "Emotional",
                     "Delta": 4
                 }
             ]
         }
     },
-    {
-        "Name": "Exercise",
-        "MinTime": 15,
-        "Requirements": {
-            "LocationRequirements": [
-                {
-                    "HasAllOf": [
-                        "Gym"
-                    ],
-                    "HasOneOrMoreOf": [],
-                    "HasNoneOf": []
-                }
-            ]
-        },
-        "Effects": {
-            "MotiveEffects": [
-                {
-                    "MotiveType": "Physical",
-                    "Delta": 2
-                },
-                {
-                    "MotiveType": "Emotional",
-                    "Delta": 1
-                }
-            ]
-        }
-    },
-	{
-		"Name": "Escape the heat",
-		"MinTime": 15,
-		"Hidden": false,
-		"Requirements": {
-			"LocationRequirements": [
-				{
-					"HasAllOf": [
-						"Building"
-					],
-					"HasOneOrMoreOf": [],
-					"HasNoneOf": []
-				}
-			],
-			"MotiveRequirements": [
-				{
-					"MotiveType": "Physical",
-					"Operation": "<",
-					"Threshhold": 4
-				}
-			]
-		},
-		"Effects": {
-			"MotiveEffects": [
-				{
-					"MotiveType": "Physical",
-					"Delta": 2
-				}
-			]
-		}
-	},
 	{
 		"Name": "Eat",
 		"MinTime": 15,
@@ -180,6 +85,32 @@
 				{
 					"MotiveType": "Financial",
 					"Delta": -1
+				}
+			]
+		}
+	},
+	{
+		"Name": "Play Video Games",
+		"MinTime": 30,
+		"Hidden": false,
+		"Requirements": {
+			"LocationRequirements": [
+				{
+					"HasAllOf": [
+						"Has:Computer"
+					]
+				}
+			]
+		},
+		"Effects": {
+			"MotiveEffects": [
+				{
+					"MotiveType": "Emotional",
+					"Delta": 2
+				},
+				{
+					"MotiveType": "Accomplishment",
+					"Delta": 1
 				}
 			]
 		}
