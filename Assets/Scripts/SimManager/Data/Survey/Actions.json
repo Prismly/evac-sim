@@ -27,6 +27,96 @@
         }
     },
 	{
+		"Name": "Yell at Enemy",
+		"MinTime": 5,
+		"Requirements": {
+			"PeopleRequirements": [
+				{
+					"RelationshipsPresent": ["Enemy"]
+				}
+			]
+		},
+		"Effects": {
+			"TargetActions": ["Be Yelled At"],
+			"ChainActions": ["Laugh Evilly"],
+			"MotiveEffects": [
+				{
+					"MotiveType": "Social",
+					"Delta": 5
+				},
+				{
+					"MotiveType": "Accomplishment",
+					"Delta": 5
+				}
+			]
+		}
+	},
+	{
+		"Name": "Go Home",
+		"MinTime": 15,
+		"Requirements": {
+			"LocationRequirements": [{
+				"HasAllOf": ["Home"]
+			}]
+		},
+		"Effects": {
+			"MotiveEffects": [
+				{
+					"MotiveType": "Social",
+					"Delta": -1
+				},
+				{
+					"MotiveType": "Emotional",
+					"Delta": 1
+				}
+			]
+		}
+	},
+	{
+		"Name": "Be Gloomy",
+		"Hidden": true,
+		"MinTime": 60,
+		"Effects": {
+			"MotiveEffects": [
+				{
+					"MotiveType": "Emotional",
+					"Delta": 2
+				}
+			]
+		}
+	},
+	{
+		"Name": "Be Yelled At",
+		"MinTime": 5,
+		"Hidden": true,
+		"Effects": {
+			"ChainActions": ["Go Home", "Be Gloomy"],
+			"MotiveEffects": [
+				{
+					"MotiveType": "Social",
+					"Delta": -3
+				},
+				{
+					"MotiveType": "Emotional",
+					"Delta": -3
+				}
+			]
+		}
+	},
+	{
+		"Name": "Laugh Evilly",
+		"MinTime": 2,
+		"Hidden": true,
+		"Effects": {
+			"MotiveEffects": [
+				{
+					"MotiveType": "Emotional",
+					"Delta": 2
+				}
+			]
+		}
+	},
+	{
 		"Name": "Eat",
 		"MinTime": 15,
 		"Hidden": false,
