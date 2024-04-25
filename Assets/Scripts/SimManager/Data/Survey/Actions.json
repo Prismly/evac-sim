@@ -48,6 +48,12 @@
 					"MotiveType": "Accomplishment",
 					"Delta": 5
 				}
+			],
+			"RelationshipEffects": [
+				{
+					"RelType": "Friend",
+					"Delta": -2
+				}
 			]
 		}
 	},
@@ -99,6 +105,12 @@
 				{
 					"MotiveType": "Emotional",
 					"Delta": -3
+				}
+			],
+			"RelationshipEffects": [
+				{
+					"RelType": "Friend",
+					"Delta": -2
 				}
 			]
 		}
