@@ -27,6 +27,39 @@
         }
     },
 	{
+        "Name": "Work at Restaurant",
+        "MinTime": 60,
+        "Requirements": {
+            "LocationRequirements": [
+                {
+                    "HasAllOf": [
+                        "Restaurant"
+                    ],
+                    "HasOneOrMoreOf": [],
+                    "HasNoneOf": []
+                }
+            ]
+        },
+        "Effects": {
+            "MotiveEffects": [
+				{
+                    "MotiveType": "Emotional",
+                    "Delta": -1
+                },
+                {
+                    "MotiveType": "Financial",
+                    "Delta": 4
+                }
+            ],
+			"LocationEffects": [
+				{
+					"Operation": "Add",
+					"Tags": ["Food","Food","Food"]
+				}
+			]
+        }
+    },
+	{
 		"Name": "Yell at Enemy",
 		"MinTime": 5,
 		"Requirements": {
@@ -58,7 +91,7 @@
 		}
 	},
 	{
-		"Name": "Go Home",
+		"Name": "Sad At Home",
 		"MinTime": 15,
 		"Requirements": {
 			"LocationRequirements": [{
@@ -80,13 +113,21 @@
 	},
 	{
 		"Name": "Be Gloomy",
-		"Hidden": true,
 		"MinTime": 60,
+		"Requirements": {
+			"MotiveRequirements": [
+				{
+					"MotiveType": "Emotional",
+					"Operation": "<",
+					"Threshold": 3
+				}
+			]
+		},
 		"Effects": {
 			"MotiveEffects": [
 				{
 					"MotiveType": "Emotional",
-					"Delta": 2
+					"Delta": 1
 				}
 			]
 		}
@@ -96,7 +137,7 @@
 		"MinTime": 5,
 		"Hidden": true,
 		"Effects": {
-			"ChainActions": ["Go Home", "Be Gloomy"],
+			"ChainActions": ["Sad At Home", "Be Gloomy"],
 			"MotiveEffects": [
 				{
 					"MotiveType": "Social",
@@ -138,8 +179,7 @@
 					"HasAllOf": [
 						"Restaurant"
 					],
-					"HasOneOrMoreOf": [],
-					"HasNoneOf": []
+					"HasOneOrMoreOf": ["Food"]
 				}
 			]
 		},
@@ -153,6 +193,12 @@
 					"MotiveType": "Financial",
 					"Delta": -1
 				}
+			],
+			"LocationEffects": [
+				{
+					"Operation": "Remove",
+					"Tags": ["Food"]
+				}
 			]
 		}
 	},
@@ -165,7 +211,8 @@
 				{
 					"HasAllOf": [
 						"Restaurant"
-					]
+					],
+					"HasOneOrMoreOf": ["Food"]
 				}
 			],
 			"PeopleRequirements": [
@@ -187,6 +234,12 @@
 				{
 					"MotiveType": "Financial",
 					"Delta": -1
+				}
+			],
+			"LocationEffects": [
+				{
+					"Operation": "Remove",
+					"Tags": ["Food"]
 				}
 			]
 		}

@@ -67,7 +67,7 @@ namespace SimManager.SimulationManager
                     Name = locNode.Name,
                     Coordinates = new(locNode.X, locNode.Y),
                 };
-                loc.Tags.UnionWith(locNode.Tags);
+                loc.Tags = locNode.Tags;
                 foreach(KeyValuePair<LocationNode, float> con in locNode.Connections)
                 {
                     loc.Connections.Add(con.Key.Name, con.Value);
@@ -157,5 +157,13 @@ namespace SimManager.SimulationManager
         {
             ExecutionManager.RunSim(steps);
         }
-    }
+
+		public override void UpdateLocations()
+		{
+			foreach(string locName in LocationManager.dirtyLocations){
+				SimEngine.Locations[locName].Tags =  LocationManager.LocationsByName[locName].Tags;
+			}
+			LocationManager.dirtyLocations = new();
+		}
+	}
 }

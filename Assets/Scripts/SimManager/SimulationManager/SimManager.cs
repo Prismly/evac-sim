@@ -113,6 +113,7 @@ namespace SimManager.SimulationManager
                     Reality?.UpdateNpc(npc);
                     Knowledge?.UpdateNpc(npc);
                 }
+				Reality?.UpdateLocations();
                 History?.LogNpcStates(LOG_PATH);
             }
         }

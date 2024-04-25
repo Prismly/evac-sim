@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Anthology.Models;
 
 namespace SimManager.SimulationManager
 {
@@ -31,6 +32,11 @@ namespace SimManager.SimulationManager
         /// Used to update the reality sim's location models to match the SimManager's collection of Locations.
         /// </summary>
         public abstract void PushLocations();
+
+		/// <summary>
+        /// Used to update the SimManager's location models to match the Reality Sim's collection of Locations.
+        /// </summary>
+        public abstract void UpdateLocations();
 
         /// <summary>
         /// Updates the given NPC to match the reality sim's version.

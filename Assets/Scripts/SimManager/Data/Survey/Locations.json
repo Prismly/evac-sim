@@ -202,7 +202,8 @@
         "Y": 13,
         "Tags": [
             "Building",
-            "Has:Bed"
+            "Has:Bed",
+			"Home"
         ]
     },
     {
@@ -316,7 +317,8 @@
         "Y": 1,
         "Tags": [
             "Building",
-            "Restaurant"
+            "Restaurant",
+			"Food","Food","Food"
         ]
     },
     {
@@ -326,7 +328,7 @@
         "Tags": [
             "Building",
 			"Restaurant", 
-			"Fun"
+			"Fun","Food","Food"
         ]
     },
     {

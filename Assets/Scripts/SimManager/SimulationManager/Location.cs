@@ -52,7 +52,7 @@ namespace SimManager.SimulationManager
         /// <summary>
         /// Arbitrary set of tags associated with the location.
         /// </summary>
-        public HashSet<string> Tags { get; set; } = new();
+        public List<string> Tags { get; set; } = new();
 
         /// <summary>
         /// Directly pathable connections between locations and their distances
