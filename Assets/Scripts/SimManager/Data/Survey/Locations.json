@@ -13,7 +13,8 @@
         "X": 0,
         "Y": 19,
         "Tags": [
-            "Gym"
+            "Gym",
+			"Building"
         ]
     },
 	{
@@ -319,11 +320,13 @@
         ]
     },
     {
-        "Name": "G3",
+        "Name": "Froyo Palace",
         "X": 6,
         "Y": 19,
         "Tags": [
-            "Building"
+            "Building",
+			"Restaurant", 
+			"Fun"
         ]
     },
     {

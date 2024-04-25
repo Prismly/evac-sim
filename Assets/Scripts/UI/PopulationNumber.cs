@@ -21,7 +21,7 @@ public class PopulationNumber : MonoBehaviour
         place = GetComponent<Place>();
         population = SimEngine.Locations[place.name].AgentsPresent.Count;
         UpdatePopulation();
-        Debug.Log(place.name + " " + population);
+        // Debug.Log(place.name + " " + population);
     }
 
     public void UpdatePopulation()

@@ -23,18 +23,11 @@
     },
     {
         "Name": "Thomas",
-        "Motives": {
-            "accomplishment": 3,
-            "emotional": 1,
-            "financial": 2,
-            "social": 2,
-            "physical": 1
-        },
         "Relationships": [
             {
-                "Type": "Friend",
+                "Type": "Enemy",
                 "With": "Eleanor",
-                "Valence": 2
+                "Valence": 1
             },
             {
                 "Type": "Rival",
@@ -57,15 +50,5 @@
                 "Valence": 1
             }
         ]
-    },
-	{
-		"Name": "Alice",
-		"Relationships": [
-			{
-                "Type": "Secret-Crush",
-                "With": "Thomas",
-                "Valence": 5
-            }
-		]
-	}
+    }
 ]
